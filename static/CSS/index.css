@@ -1,0 +1,239 @@
+body {
+  height: 100svh;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.BackgroundTop {
+  background-image: linear-gradient(15deg, var(--bg-color1), var(--bg-color2));
+  height: 50%;
+  width: 100vw;
+}
+
+.BackgroundBottom {
+  height: 50%;
+  width: 100vw;
+  background-color: var(--bg-color2);
+}
+
+.Navbar {
+  display: flex;
+  align-items: center;
+  width: 100vw;
+  height: 4rem;
+  border-bottom: solid 0.2rem rgb(255, 255, 255, 0.1);
+  justify-content: space-around;
+}
+
+.Logo {
+  display: flex;
+}
+
+
+.Logo .Top {
+  font-size: 2rem;
+}
+
+.Logo .Bottom {
+  position: relative;
+  bottom: 0.6rem;
+  left: 0.9rem;
+  font-size: 2rem;
+}
+
+.Logo h1 {
+  margin-left: 0.7rem;
+}
+
+.NavOptions {
+  display: flex;
+  list-style: none;
+}
+
+.NavOption {
+  margin: 0px 1rem;
+  font-size: 0.9rem;
+  font-weight: bold;
+}
+
+
+.NavOption a {
+  color: var(--font-color-white);
+}
+
+.CurrentNavOption a {
+  color: var(--bg-color1);
+}
+
+.Profile {
+  font-size: 2rem;
+  color: white;
+}
+
+.Profile:hover {
+  cursor: pointer;
+}
+
+.Center {
+  width: 100vw;
+  height: 15rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.Center h1 {
+  font-size: 3rem;
+  color: var(--font-color-white);
+  margin-bottom: 0.5rem;
+}
+
+.Center p {
+  font-size: 1rem;
+  color: var(--bg-color1);
+  font-weight: bold;
+  margin-bottom: 1.2rem;
+}
+
+.Center .SearchBar {
+  background: white;
+  border-radius: 25px;
+  width: 40rem;
+  height: 3.5rem;
+  display: flex;
+  align-items: center;
+}
+
+.Center .SearchBar .Icon {
+  margin: 0 1rem;
+}
+
+.Center .SearchBar input {
+  background: none;
+  outline: none;
+  border: none;
+  font-size: 1.1rem;
+  width: 31rem;
+}
+
+.Center .SearchBar button {
+  color: var(--font-color-white);
+  background-color: var(--bg-color2);
+  border: none;
+  border-radius: 25px;
+  width: 5.3rem;
+  height: 2.5rem;
+  font-weight: bold;
+}
+
+
+.Cards {
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  bottom: 4rem;
+}
+
+.CardHeader {
+  margin-top: 1rem;
+  margin-left: 1.2rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.CardHeader .Counter {
+  color: white;
+  font-size: 0.9rem;
+  padding: 0.3rem;
+  border-radius: 5px;
+}
+
+.CardParagraph {
+  margin-left: 1.2rem;
+  font-size: 1.2rem;
+  width: 80%;
+}
+
+.CardWebDesign {
+  width: 25rem;
+  height: 25rem;
+  border-radius: 25px;
+  background: white;
+  box-shadow: 1px 1px 20px 0 rgb(0, 0, 0, 0.2);
+  margin-right: 2rem;
+}
+
+.CardWebDesign .CardParagraph {
+  color: var(--font-color-grey);
+}
+
+.CardWebDesign .CardHeader .Counter {
+  background: var(--counter-color-light);
+}
+
+.CardFinance {
+  background-image: url("../images/Finance.jpg");
+  position: relative;
+  background-position: -27rem;
+  width: 37rem;
+  height: 25rem;
+  color: white;
+  border-radius: 25px;
+  box-shadow: 1px 1px 20px 0 rgb(0, 0, 0, 0.2);
+  overflow: hidden;
+}
+
+
+.CardFinance .CardHeader .Counter {
+  background: var(--counter-color-dark);
+  color: var(--font-color-white);
+}
+
+.CardFinance .CardParagraph {
+  color: var(--font-color-white);
+}
+
+.CardFinance button {
+  border: none;
+  color: white;
+  background-color: var(--bg-color2);
+  border-radius: 20px;
+  font-weight: bold;
+}
+
+.CardFinance .LearnMore {
+  margin-top: 1rem;
+  margin-left: 1rem;
+  padding: 0.7rem 1.7rem;
+}
+
+.CardFinance .ShareButtons {
+  margin-top: 10rem;
+  margin-left: 1rem;
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.CardFinance .ShareButtons p {
+  margin-right: 1rem;
+}
+
+.CardFinance .ShareButtons .ShareButton {
+  margin: 0 0.5rem;
+  padding: 0.5rem 0.6rem;
+}
+
+.CardFinance .Bookmark {
+  background: none;
+  margin-left: 20rem;
+  font-size: 1.3rem;
+}
