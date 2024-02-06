@@ -1,10 +1,8 @@
-<div class="dropdown" x-data="{ open: false }">
-  <h3 x-on:click="open = ! open" :class="open ? 'current': ''" x-transition>
-    <%= Header %>
-      <i class="nf nf-cod-triangle_up" x-show="open"></i>
-      <i class="nf nf-cod-triangle_down" x-show="!open"></i>
-  </h3>
-  <p x-show="open" x-transition>
-    <%= Paragraph%>
-  </p>
-</div>
+<details class="dropdown" x-data="{ open: false }">
+  <summary x-on:click="open = ! open" :class="open ? 'current': ''">
+    <h3><%= Header %></h3>
+    <i class="nf nf-cod-triangle_up" x-show="open"></i>
+    <i class="nf nf-cod-triangle_down" x-show="!open"></i>
+  </summary>
+  <p transition="height 2s" x-show="open" x-transition><%= Paragraph %></p>
+</details>

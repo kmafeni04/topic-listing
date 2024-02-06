@@ -3,6 +3,9 @@ body {
 	overflow: hidden;
 }
 
+.back_arrow {
+	color: white;
+}
 
 main {
 	display: flex;
@@ -41,13 +44,6 @@ main {
 	left: 40%;
 }
 
-.back_arrow {
-	cursor: pointer;
-	position: relative;
-	left: 1rem;
-	font-size: 1.5rem;
-	color: white;
-}
 
 h1,
 h3,

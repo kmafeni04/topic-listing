@@ -16,14 +16,6 @@ body {
   left: 40%;
 }
 
-.back_arrow {
-  cursor: pointer;
-  position: relative;
-  left: 1rem;
-  font-size: 1.5rem;
-}
-
-
 .nav_options_container {
   border-bottom: solid 2px rgba(46, 46, 46, 0.1);
 }
@@ -66,14 +58,12 @@ body {
 }
 
 .card {
-
   width: 25rem;
   height: 23rem;
   border-radius: 25px;
   background: white;
   box-shadow: 1px 1px 20px 0 rgb(0, 0, 0, 0.2);
   margin-right: 2rem;
-
 }
 
 .card_header {

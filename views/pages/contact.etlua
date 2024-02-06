@@ -1,0 +1,11 @@
+<link rel="stylesheet" href="../../static/CSS/contact.css" />
+
+<main>
+  <div class="header">
+    <a hx-boost="true" href="/">
+      <i class="nf nf-cod-arrow_left back_arrow"></i>
+    </a>
+    <h1>Get in touch</h1>
+  </div>
+  <div class="content"></div>
+</main>

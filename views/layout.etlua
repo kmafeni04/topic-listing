@@ -1,18 +1,16 @@
-<!DOCTYPE HTML>
+<!doctype html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=, initial-scale=" />
+    <title><%= page_title or "Topic Listing" %></title>
+    <link rel="stylesheet" href="../static/CSS/styles.css" />
+    <script src="../static/JS/HTMX.js"></script>
+    <script defer src="../static/JS/Alpine.js"></script>
+    <!-- https://templatemo.com/tm-590-topic-listing -->
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <title>
-    <%= page_title or "Topic Listing" %>
-  </title>
-  <link rel="stylesheet" href="../static/CSS/styles.css">
-  <script src="../static/JS/HTMX.js"></script>
-  <script src="../static/JS/Alpine.js"></script>
-</head>
-
-<body>
-  <% content_for("inner") %>
-</body>
-
+  <body>
+    <% content_for("inner") %>
+  </body>
 </html>

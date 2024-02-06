@@ -1,10 +1,8 @@
-<link rel="stylesheet" href="../../static/CSS/how_it_works.css">
-
-
-<div class="image_background">
-  <img src="../../static/images/discuss.jpg">
-</div>
 <main>
+  <link rel="stylesheet" href="../../static/CSS/how_it_works.css" />
+  <div class="image_background">
+    <img src="../../static/images/discuss.jpg" />
+  </div>
   <div class="top_bar">
     <a hx-boost="true" href="/">
       <i class="nf nf-cod-arrow_left back_arrow"></i>
@@ -15,7 +13,9 @@
     <div class="first_half">
       <span class="icon_container"><i class="nf nf-fa-search icon"></i></span>
       <div class="bar"></div>
-      <span class="icon_container"><i class="nf nf-cod-bookmark icon"></i></span>
+      <span class="icon_container"
+        ><i class="nf nf-cod-bookmark icon"></i
+      ></span>
       <div class="bar"></div>
       <span class="icon_container"><i class="nf nf-cod-book icon"></i></span>
     </div>
@@ -23,22 +23,28 @@
       <div class="paragraph">
         <h3>Search your favourite topic</h3>
         <p>
-          Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-          sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies
+          Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
+          commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus
+          et magnis dis parturient montes, nascetur ridiculus mus. Donec quam
+          felis, ultricies
         </p>
       </div>
       <div class="paragraph">
         <h3>Bookmark & keep it for yourself</h3>
         <p>
-          Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-          sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies
+          Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
+          commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus
+          et magnis dis parturient montes, nascetur ridiculus mus. Donec quam
+          felis, ultricies
         </p>
       </div>
       <div class="paragraph">
         <h3>Read & Enjoy</h3>
         <p>
-          Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-          sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies
+          Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
+          commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus
+          et magnis dis parturient montes, nascetur ridiculus mus. Donec quam
+          felis, ultricies
         </p>
       </div>
     </div>

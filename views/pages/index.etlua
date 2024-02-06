@@ -1,56 +1,63 @@
-<!-- https://templatemo.com/tm-590-topic-listing -->
-
-<link rel="stylesheet" href="../static/CSS/index.css">
-
-<div class="BackgroundTop">
-  <div class="Navbar">
-    <div class="Logo">
-      <i class="nf nf-fa-square Bottom"></i>
-      <i class="nf nf-fa-square_o Top"></i>
-      <h1>Topic</h1>
+<main>
+  <link rel="stylesheet" href="../static/CSS/index.css" />
+  <div class="BackgroundTop">
+    <div class="Navbar">
+      <div class="Logo">
+        <i class="nf nf-fa-square Bottom"></i>
+        <i class="nf nf-fa-square_o Top"></i>
+        <h1>Topic</h1>
+      </div>
+      <ul class="NavOptions" hx-boost="true">
+        <li class="NavOption CurrentNavOption"><a>HOME</a></li>
+        <li class="NavOption"><a href="/browse_topics">BROWSE TOPICS</a></li>
+        <li class="NavOption"><a href="/how_it_works">HOW IT WORKS</a></li>
+        <li class="NavOption"><a href="/faqs">FAQS</a></li>
+        <li class="NavOption"><a href="/contact">CONTACT</a></li>
+        <li class="NavOption"><a>PAGES</a></li>
+      </ul>
+      <i class="nf nf-oct-feed_person Profile"></i>
     </div>
-    <ul class="NavOptions" hx-boost="true">
-      <li class="NavOption CurrentNavOption"><a>HOME</a></li>
-      <li class="NavOption"><a href="/browse_topics">BROWSE TOPICS</a></li>
-      <li class="NavOption"><a href="/how_it_works">HOW IT WORKS</a></li>
-      <li class="NavOption"><a href="/faqs">FAQS</a></li>
-      <li class="NavOption"><a>CONTACT</a></li>
-      <li class="NavOption"><a>PAGES</a></li>
-    </ul>
-    <i class="nf nf-oct-feed_person Profile"></i>
-  </div>
-  <div class="Center">
-    <h1>Discover. Learn. Enjoy</h1>
-    <p>platform for creatives around the world</p>
-    <form class="SearchBar">
-      <i class="nf nf-fa-search Icon"></i>
-      <input placeholder="Design, Code, Marketing, Finance ...">
-      <button type="submit">Search</button>
-    </form>
-  </div>
-</div>
-<div class="BackgroundBottom">
-  <div class="Cards">
-    <div class="CardWebDesign">
-      <p class="CardHeader">Web Design<span class="Counter">14</span></p>
-      <p class="CardParagraph">
-        When you search for free CSS templates, you will notice that TemplateMo is one of the best websites.
-      </p>
+    <div class="Center">
+      <h1>Discover. Learn. Enjoy</h1>
+      <p>platform for creatives around the world</p>
+      <form class="SearchBar">
+        <i class="nf nf-fa-search Icon"></i>
+        <input placeholder="Design, Code, Marketing, Finance ..." />
+        <button type="submit">Search</button>
+      </form>
     </div>
-    <div class="CardFinance">
-      <p class="CardHeader">Finance<span class="Counter">25</p>
-      <p class="CardParagraph">
-        Topic listing Template includes homepage,listing page, detail page, and contact page. You can feel free to
-        edit and adapt to your CMS requirements.
-      </p>
-      <button class="LearnMore">Learn More</button>
-      <div class="ShareButtons">
-        <p>Share:</p>
-        <button class="ShareButton"><i class="nf nf-cod-twitter"></i></button>
-        <button class="ShareButton"><i class="nf nf-md-facebook"></i></button>
-        <button class="ShareButton"><i class="nf nf-fa-pinterest"></i></button>
-        <button class="Bookmark"><i class="nf nf-cod-bookmark"></i></button>
+  </div>
+  <div class="BackgroundBottom">
+    <div class="Cards">
+      <div class="CardWebDesign">
+        <p class="CardHeader">Web Design<span class="Counter">14</span></p>
+        <p class="CardParagraph">
+          When you search for free CSS templates, you will notice that
+          TemplateMo is one of the best websites.
+        </p>
+      </div>
+      <div class="CardFinance">
+        <p class="CardHeader">Finance<span class="Counter">25</span></p>
+        <p class="CardParagraph">
+          Topic listing Template includes homepage,listing page, detail page,
+          and contact page. You can feel free to edit and adapt to your CMS
+          requirements.
+        </p>
+        <button class="LearnMore">Learn More</button>
+        <div class="ShareButtons">
+          <p>Share:</p>
+          <button class="ShareButton">
+            <i class="nf nf-cod-twitter"></i>
+          </button>
+          <button class="ShareButton">
+            <i class="nf nf-md-facebook"></i>
+          </button>
+          <button class="ShareButton">
+            <i class="nf nf-fa-pinterest"></i>
+          </button>
+          <button class="Bookmark"><i class="nf nf-cod-bookmark"></i></button>
+        </div>
       </div>
     </div>
   </div>
-</div>
+</main>

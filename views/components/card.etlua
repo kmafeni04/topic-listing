@@ -1,11 +1,7 @@
 <div class="card">
   <p class="card_header">
     <%= Header or "Change Text" %>
-      <span class="counter">
-        <%= Counter or "Change Text" %>
-      </span>
+    <span class="counter"> <%= Counter or "Change Text" %> </span>
   </p>
-  <p class="card_paragraph">
-    <%= Paragraph or "Change Text" %>
-  </p>
+  <p class="card_paragraph"><%= Paragraph or "Change Text" %></p>
 </div>
