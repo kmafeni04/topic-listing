@@ -1,17 +1,6 @@
-main {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-
-.back_arrow {
-  left: 1rem;
-  top: 2rem;
-}
-
 .content {
   display: flex;
-  margin: 7%;
+  padding: 7%;
 }
 
 .first_half {
@@ -36,7 +25,7 @@ main {
 }
 
 .current {
-  background: var(--bg-color1);
-  color: white;
+  background: #e7f1fd;
+  color: #356380;
   border-radius: 10rem;
 }

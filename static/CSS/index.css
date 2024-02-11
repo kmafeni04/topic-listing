@@ -1,6 +1,4 @@
 main {
-  height: 100svh;
-  overflow: hidden;
   display: flex;
   flex-direction: column;
 }
@@ -30,7 +28,6 @@ main {
   display: flex;
 }
 
-
 .Logo .Top {
   font-size: 2rem;
 }
@@ -56,7 +53,6 @@ main {
   font-size: 0.9rem;
   font-weight: bold;
 }
-
 
 .NavOption a {
   color: var(--font-color-white);
@@ -128,7 +124,6 @@ main {
   font-weight: bold;
 }
 
-
 .Cards {
   width: 100vw;
   display: flex;
@@ -190,7 +185,6 @@ main {
   box-shadow: 1px 1px 20px 0 rgb(0, 0, 0, 0.2);
   overflow: hidden;
 }
-
 
 .CardFinance .CardHeader .Counter {
   background: var(--counter-color-dark);

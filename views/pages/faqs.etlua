@@ -1,8 +1,5 @@
 <main>
   <link rel="stylesheet" href="../../static/CSS/faqs.css" />
-  <a hx-boost="true" href="/">
-    <i class="nf nf-cod-arrow_left back_arrow"></i>
-  </a>
   <div class="content">
     <div class="first_half">
       <h1>Frequently Asked Questions</h1>

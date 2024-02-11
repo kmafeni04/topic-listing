@@ -1,14 +1,14 @@
 @import "https://www.nerdfonts.com/assets/css/webfont.css";
 
 :root {
-  --bg-color1: #16587B;
-  --bg-color2: #80CDC5;
+  --bg-color1: #16587b;
+  --bg-color2: #80cdc5;
   --font-color-white: white;
   --font-color-black: black;
   --font-color-grey: grey;
-  --font-color-teal: #4790A9;
-  --counter-color-light: #01ABF3;
-  --counter-color-dark: #5470F7;
+  --font-color-teal: #4790a9;
+  --counter-color-light: #01abf3;
+  --counter-color-dark: #5470f7;
 }
 
 * {
@@ -17,6 +17,10 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 
+main {
+  height: 100svh;
+  overflow: clip;
+}
 
 a {
   text-decoration: none;
@@ -24,13 +28,10 @@ a {
   cursor: pointer;
 }
 
-button:hover {
-  cursor: pointer;
+li {
+  list-style: none;
 }
 
-.back_arrow {
+button:hover {
   cursor: pointer;
-  position: relative;
-  left: 1rem;
-  font-size: 1.5rem;
 }

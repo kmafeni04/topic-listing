@@ -1,9 +1,6 @@
 <main>
 <link rel="stylesheet" href="../../static/CSS/browse_topics.css">
 <div class="top_bar">
-  <a hx-boost="true" href="/">
-    <i class="nf nf-cod-arrow_left back_arrow"></i>
-  </a>
   <h1>Browse Topics</h1>
 </div>
 <div class="nav_options_container">

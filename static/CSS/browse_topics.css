@@ -3,17 +3,13 @@ body {
 }
 
 .top_bar {
-  margin-top: 2rem;
+  padding-top: 2rem;
   width: 100vw;
   display: flex;
+  justify-content: center;
   align-items: center;
   margin-bottom: 2rem;
   position: relative;
-}
-
-.top_bar h1 {
-  position: absolute;
-  left: 40%;
 }
 
 .nav_options_container {

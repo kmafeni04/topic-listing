@@ -4,9 +4,6 @@
     <img src="../../static/images/discuss.jpg" />
   </div>
   <div class="top_bar">
-    <a hx-boost="true" href="/">
-      <i class="nf nf-cod-arrow_left back_arrow"></i>
-    </a>
     <h1>How Does it work?</h1>
   </div>
   <div class="content">
